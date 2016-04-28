@@ -18,13 +18,13 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
+                        Check update for APP with libUMCheckUpdate.a.
                        DESC
 
   s.homepage         = "https://github.com/<GITHUB_USERNAME>/UMengAnalyticsCheckUpdate"
   s.license          = 'MIT'
   s.author           = { "cailu" => "louis.cai.cn@gmail.com" }
   s.source           = { :git => "https://github.com/louis-cai/UMengAnalyticsCheckUpdate.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
@@ -34,5 +34,5 @@ Pod::Spec.new do |s|
   }
   s.vendored_libraries = 'UMengAnalyticsCheckUpdate/Libs/libUMCheckUpdate.a'
 
-  s.public_header_files = 'Pod/Classes/**/*.h'
+  #s.public_header_files = 'Pod/Classes/**/*.h'
 end
