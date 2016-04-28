@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'UMengAnalyticsCheckUpdate_Example', :exclusive => true do
+  pod 'UMengAnalyticsCheckUpdate', :path => '../'
+end
+
+target 'UMengAnalyticsCheckUpdate_Tests', :exclusive => true do
+  pod 'UMengAnalyticsCheckUpdate', :path => '../'
+
+  pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+end

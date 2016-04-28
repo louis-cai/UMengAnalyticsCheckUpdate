@@ -1,0 +1,26 @@
+{
+  "name": "UMengAnalyticsCheckUpdate",
+  "version": "0.1.0",
+  "summary": "A short description of UMengAnalyticsCheckUpdate.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/UMengAnalyticsCheckUpdate",
+  "license": "MIT",
+  "authors": {
+    "cailu": "louis.cai.cn@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/louis-cai/UMengAnalyticsCheckUpdate.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "UMengAnalyticsCheckUpdate/Classes/**/*",
+  "resource_bundles": {
+    "UMengAnalyticsCheckUpdate": [
+      "UMengAnalyticsCheckUpdate/Assets/*.png"
+    ]
+  },
+  "vendored_libraries": "UMengAnalyticsCheckUpdate/Libs/libUMCheckUpdate.a",
+  "public_header_files": "Pod/Classes/**/*.h"
+}
